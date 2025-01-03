@@ -11,15 +11,18 @@
           Cursos AlfaWeb
         </a>
   
-        <!-- Iconos a la derecha -->
-        <div class="ms-auto d-flex align-items-center">
-          <a href="#" class="text-white me-3">
-            <i class="bi bi-house-door-fill" style="font-size:1.5rem;"></i>
-          </a>
-          <a href="#" class="text-white">
-            <i class="bi bi-gear-fill" style="font-size:1.5rem;"></i>
-          </a>
-        </div>
+        <!-- Enlaces -->
+      <div class="ms-auto d-flex align-items-center">
+        <!-- Router-link a Home -->
+        <router-link to="/" class="text-white me-3 text-decoration-none">
+          <i class="bi bi-house-door-fill" style="font-size:1.5rem;"></i>
+        </router-link>
+
+        <!-- Router-link a Admin -->
+        <router-link to="/admin" class="text-white text-decoration-none">
+          <i class="bi bi-gear-fill" style="font-size:1.5rem;"></i>
+        </router-link>
+      </div>
       </div>
     </nav>
   </template>

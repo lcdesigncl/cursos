@@ -11,10 +11,10 @@
       <!-- Ejemplo de contenido provisional -->
       <p>Contenido inicial de la aplicación</p>
     </main>
-
+    <router-view></router-view>
     <!-- Aquí insertaremos el Footer más adelante -->
      <Footer />
-     <router-view></router-view>
+
   </div>
 </template>
 
