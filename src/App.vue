@@ -14,6 +14,7 @@
 
     <!-- Aquí insertaremos el Footer más adelante -->
      <Footer />
+     <router-view></router-view>
   </div>
 </template>
 
